@@ -14,7 +14,7 @@ module ActiveRecord
       end
 
       def invert_remove_foreign_key(args)
-        [:remove_add_key, args]
+        [:add_foreign_key, args]
       end
     end
   end
